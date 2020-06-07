@@ -1,0 +1,26 @@
+.headerUp {
+  padding: 16px 0;
+  background: #272727;
+}
+.phoneLink {
+  color: #fff;
+}
+
+.headerUnder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.navList {
+  display: flex;
+  align-items: center;
+}
+.navItem:not(:last-child) {
+  margin: 0 70px 0 0;
+}
+.navLink {
+  color: #272727;
+  text-transform: uppercase;
+  font-size: 14px;
+}
