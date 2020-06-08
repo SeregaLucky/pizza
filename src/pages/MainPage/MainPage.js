@@ -9,20 +9,24 @@ import AllPizza from '../../components/AllPizza/AllPizza';
 import AllDrink from '../../components/AllDrink/AllDrink';
 
 const MainPage = props => {
-  console.log(props);
+  // console.log(props);
+  // console.log(props.match);
+  // console.log('props.match.path', props.match.path);
+  // console.log(
+  //   'props.match.path + routes.STOCK',
+  //   props.match.path + routes.STOCK,
+  // );
   return (
     <main>
+      <h1>MainPage</h1>
+
       <Slider />
 
       <Switch>
+        <Route exact path={routes.MAIN_PAGE} component={AllPizza} />
         <Route path={routes.STOCK} component={AllStock} />
-        <Route path={routes.PIZZA} component={AllPizza} />
         <Route path={routes.DRINKS} component={AllDrink} />
       </Switch>
-
-      {/* <CardPizzaList />
-      <CardPizzaList />
-      <CardPizzaList /> */}
     </main>
   );
 };

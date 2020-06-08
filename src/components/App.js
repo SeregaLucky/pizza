@@ -12,8 +12,9 @@ const App = () => {
       <Header />
 
       <Switch>
-        <Route path={routes.MAIN_PAGE} component={MainPage} />
+        {/* <Route exact path={routes.MAIN_PAGE} component={MainPage} /> */}
         <Route path={routes.ORDER_PAGE} component={OrderPage} />
+        <Route path={routes.MAIN_PAGE} component={MainPage} />
         {/* <Redirect to="#" /> */}
       </Switch>
 

@@ -2,6 +2,7 @@
 // import styles from './AllStock.module.css';
 
 const AllStock = () => {
+  console.log('AllStock');
   return 'AllStock';
 };
 
