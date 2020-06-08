@@ -31,6 +31,7 @@
     "formik": "^2.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-media": "^1.10.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -41,7 +42,10 @@
     "yup": "^0.29.1"
   },
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.9",
     "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
     "redux-devtools-extension": "^2.13.8"
   }
 }

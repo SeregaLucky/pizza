@@ -23,3 +23,16 @@ const App = () => {
 };
 
 export default App;
+
+// Rokkitt;
+// bold 700
+
+// Oswald;
+// bold
+// normal
+// 500
+
+// Roboto
+// normal
+// bold
+// 500
