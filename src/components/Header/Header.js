@@ -21,17 +21,17 @@ const Header = () => {
         <nav className={styles.navigation}>
           <ul className={styles.navList}>
             <li className={styles.navItem}>
-              <NavLink to={''} className={styles.navLink}>
+              <NavLink to={routes.STOCK} className={styles.navLink}>
                 Акции
               </NavLink>
             </li>
             <li className={styles.navItem}>
-              <NavLink to={''} className={styles.navLink}>
+              <NavLink to={routes.PIZZA} className={styles.navLink}>
                 Пицца
               </NavLink>
             </li>
             <li className={styles.navItem}>
-              <NavLink to={''} className={styles.navLink}>
+              <NavLink to={routes.DRINKS} className={styles.navLink}>
                 Напитки
               </NavLink>
             </li>
