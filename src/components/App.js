@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { routes } from '../servises/routes';
 import MainPage from '../pages/MainPage/MainPage';
 import OrderPage from '../pages/OrderPage/OrderPage';
@@ -12,9 +12,9 @@ const App = () => {
       <Header />
 
       <Switch>
-        <Route exact path={routes.MAIN_PAGE} component={MainPage} />
+        <Route path={routes.MAIN_PAGE} component={MainPage} />
         <Route path={routes.ORDER_PAGE} component={OrderPage} />
-        {/* <Redirect to="" /> */}
+        {/* <Redirect to="#" /> */}
       </Switch>
 
       <Footer />

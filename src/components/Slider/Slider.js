@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+// import { Link, NavLink } from 'react-router-dom';
 import ReactSiema from 'react-siema';
 import styles from './Slider.module.css';
-import { routes } from '../../servises/routes';
+// import { routes } from '../../servises/routes';
 
 const Slide = props => <img {...props} alt="slide" />;
 

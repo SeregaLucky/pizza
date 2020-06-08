@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import routes from '../../servises/routes';
+// import routes from '../../servises/routes';
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -13,16 +13,16 @@ const Footer = () => {
 
         <ul className={styles.list}>
           <li className={styles.item}>
-            <Link>I</Link>
+            <Link to="#">I</Link>
           </li>
           <li className={styles.item}>
-            <Link>T</Link>
+            <Link to="#">T</Link>
           </li>
           <li className={styles.item}>
-            <Link>F</Link>
+            <Link to="#">F</Link>
           </li>
           <li className={styles.item}>
-            <Link>in</Link>
+            <Link to="#">in</Link>
           </li>
         </ul>
 
@@ -34,7 +34,9 @@ const Footer = () => {
       <div className={styles.footerUnder}>
         <p className={styles.textInfo}>
           Сайт разработан
-          <Link className={styles.textInfoLink}> командой разработчиков</Link>
+          <Link to="#" className={styles.textInfoLink}>
+            командой разработчиков
+          </Link>
         </p>
       </div>
     </footer>

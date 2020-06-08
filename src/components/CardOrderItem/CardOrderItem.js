@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CardOrderItem.module.css';
+// import styles from './CardOrderItem.module.css';
 import cardOrder from '../../assets/images/cardOrder.jpg';
 
 const CardOrderItem = () => {

@@ -9,7 +9,7 @@ const CardPizzaList = () => {
 
       <ul className={styles.list}>
         {[1, 2, 3].map(item => (
-          <CardPizzaItem />
+          <CardPizzaItem key={item} />
         ))}
       </ul>
     </>

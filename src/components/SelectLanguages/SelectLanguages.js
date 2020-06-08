@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './SelectLanguages.module.css';
+// import styles from './SelectLanguages.module.css';
 
 class SelectLanguages extends Component {
   state = { language: 'ru' };

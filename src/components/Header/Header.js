@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import { routes } from '../../servises/routes';
 import SelectLanguages from '../SelectLanguages/SelectLanguages';
@@ -36,12 +36,12 @@ const Header = () => {
               </NavLink>
             </li>
             <li className={styles.navItem}>
-              <NavLink to={''} className={styles.navLink}>
+              <NavLink to={'#'} className={styles.navLink}>
                 Сайды
               </NavLink>
             </li>
             <li className={styles.navItem}>
-              <NavLink to={''} className={styles.navLink}>
+              <NavLink to={'#'} className={styles.navLink}>
                 Десерты
               </NavLink>
             </li>
@@ -55,31 +55,3 @@ const Header = () => {
 };
 
 export default Header;
-
-{
-  /* <li className={styles.navItem}>
-  <NavLink to={''} className={styles.navLink}>
-    Акции
-              </NavLink>
-</li>
-  <li className={styles.navItem}>
-    <NavLink to={''} className={styles.navLink}>
-      Пицца
-              </NavLink>
-  </li>
-  <li className={styles.navItem}>
-    <NavLink to={''} className={styles.navLink}>
-      Напитки
-              </NavLink>
-  </li>
-  <li className={styles.navItem}>
-    <NavLink to={''} className={styles.navLink}>
-      Сайды
-              </NavLink>
-  </li>
-  <li className={styles.navItem}>
-    <NavLink to={''} className={styles.navLink}>
-      Десерты
-              </NavLink>
-  </li> */
-}

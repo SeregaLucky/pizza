@@ -9,7 +9,7 @@ const OrderPage = () => {
 
       <ul className={styles.list}>
         {[1, 2, 3].map(item => (
-          <CardOrderItem />
+          <CardOrderItem key={item} />
         ))}
       </ul>
     </main>
