@@ -1,21 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { Switch, Route } from 'react-router-dom';
+
 import { routes } from '../../servises/routes';
 // import styles from './MainPage.module.css';
+import productOperations from '../../redux/product/productOperations';
+
 import Slider from '../../components/Slider/Slider';
-// import CardPizzaList from '../../components/CardPizzaList/CardPizzaList';
 import AllStock from '../../components/AllStock/AllStock';
 import AllPizza from '../../components/AllPizza/AllPizza';
 import AllDrink from '../../components/AllDrink/AllDrink';
 
-const MainPage = props => {
-  // console.log(props);
-  // console.log(props.match);
-  // console.log('props.match.path', props.match.path);
-  // console.log(
-  //   'props.match.path + routes.STOCK',
-  //   props.match.path + routes.STOCK,
-  // );
+const MainPage = () => {
+  // const dispatch = useDispatch();
+
+  // useEffect(() => dispatch(productOperations.getAllProducts()), []);
+
   return (
     <main>
       <h1>MainPage</h1>
